@@ -15,6 +15,8 @@ MAAS_v2="http://images.maas.io/ephemeral-v2"
 MAAS_v3="http://images.maas.io/ephemeral-v3"
 CST="https://swift.canonistack.canonical.com/v1/AUTH_a48765cc0e864be980ee21ae26aaaed4"
 SST="http://10.245.160.50:80/swift/v1/simplestreams/data/streams/v1/index.json"
+NHCH_R="https://free.nchc.org.tw/ubuntu-cloud-images/releases/server"
+NHCH_D="https://free.nchc.org.tw/ubuntu-cloud-images/daily"
 sdata=(
   [uc-release]="$CIU_COM_R/streams/v1/index.sjson"
   [uc-aws]="$CIU_COM_R/streams/v1/com.ubuntu.cloud:released:aws.sjson"
@@ -48,6 +50,8 @@ sdata=(
   [cstack]="$CST/simplestreams/data/streams/v1/index.json"
   [sstack]="$SST"
   [smoser-images]="http://smoser.brickies.net/image-streams/streams/v1/index.json"
+  [nchc-releases]="$NHCH_R/streams/v1/index.sjson"
+  [nchc-daily]="$NHCH_D/streams/v1/index.sjson"
 )
 
 SPROG="sstream-query"
