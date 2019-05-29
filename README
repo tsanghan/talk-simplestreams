@@ -9,6 +9,6 @@ The session was executed on a fresh 14.04 Ubuntu cloud instance.
 The only prep done ahead of time was:
  sudo apt-get update && sudo apt-get install --assume-yes git bzr ubuntu-cloudimage-keyring
  git clone https://github.com/tsanghan/talk-simplestreams.git talk
- git clone https://git.launchpad.net/simplestreams
+ git clone https://git.launchpad.net/simplestreams talk/simplestreams
  export PATH=$PWD/talk/bin:$PWD/talk/simplestreams/tools:$PATH
  cd talk
